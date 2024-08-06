@@ -1,0 +1,27 @@
+.line {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 0rem auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cvLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem auto;
+  width: 70%;
+}
+
+.cvContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cv {
+  color: blue;
+  text-decoration: underline;
+}

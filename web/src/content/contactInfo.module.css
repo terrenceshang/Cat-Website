@@ -1,0 +1,204 @@
+/* ContactMeIconsContactMeIcons */
+.centerContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.contactInfoContainer {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  margin: 2rem 0;
+}
+
+.quote {
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.moreLinks {
+  font-weight: 500;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.reference {
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  white-space: nowrap;
+  margin-top: 20px;
+}
+
+.image {
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  margin: 0 2rem;
+  border-radius: 1.5rem;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease;
+  display: block;
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.image:hover,
+.image:focus {
+  transform: scale(1.1);
+  box-shadow: 0 0 0 2px gray;
+  cursor: pointer;
+}
+
+.image:active {
+  transform: scale(1.05);
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+/* Contact Me Form */
+.contactMeForm {
+  border: 1px solid gray;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  width: 60%;
+  margin: 2rem auto;
+  padding: 3rem;
+}
+
+.formContainer {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.profileImage {
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.profileName {
+  margin-top: 1rem;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .contactMeForm {
+    flex-direction: column;
+  }
+  .profileImage {
+    max-width: 70%;
+  }
+
+  .formContainer {
+    padding-right: 0;
+    padding-bottom: 2rem;
+  }
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.inputGroup input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.textArea {
+  min-height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  resize: none;
+  overflow-y: auto;
+}
+
+.inputBox {
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+
+.icon {
+  margin-right: 10px;
+  align-self: center;
+}
+
+.message {
+  position: relative;
+  z-index: 10;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  background-color: #3cc89e;
+  width: 60%;
+  height: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.message:hover {
+  background-color: #2da77a;
+  transform: scale(1.05);
+}
+
+.button {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.requiredText {
+  color: red;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.backgroundTheme {
+  background-color: #7b848d;
+  margin-bottom: 0;
+}
+
+.contactMeTheme {
+  background-color: white;
+  color: black;
+}
